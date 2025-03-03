@@ -333,7 +333,7 @@ const SignIn: React.FC = () => {
                     <>
                       <div className="mb-4">
                         <label className="mb-2.5 block font-medium text-black dark:text-white">
-                          UserName
+                          Email
                         </label>
                         <div className="relative">
                           <input
