@@ -33,7 +33,7 @@ const SignIn: React.FC = () => {
           alert(res.data.message + "Invalid credentials");
         }
       } else if (typeUser === "Admin") {
-        const res = await axios.post(`${BaseUrl}/admin/login`, {
+        const res = await axios.post(`https://student-management-server-fuhf.onrender.com/api/v1/admin/login`, {
           id,
           password,
         });
