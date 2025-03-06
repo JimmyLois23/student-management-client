@@ -228,6 +228,9 @@ const SignIn: React.FC = () => {
                 Do not use these for production use -{" "}
                 <span className=""> Choose Admin On DropDown</span>{" "}
               </p>
+              <p className="text-red-600 font-bold">
+               Please wait Some Seconds - I am using Free Hosting Services , So It may take some time
+              </p>
 
               <form onSubmit={handleSumit}>
                 <div className="mb-4">
